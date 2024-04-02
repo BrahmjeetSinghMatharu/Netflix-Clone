@@ -1,0 +1,434 @@
+body{
+    background-color: rgba(0, 0, 0, 0.614);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;background-color: rgba(0, 0, 0, 0.534);
+    padding-top: 1.7%;
+}
+
+nav img{
+    position:relative;
+    padding-right: 400px;
+}
+
+
+.first{
+    height: 90vh;
+    background-image: url("./assets/US-en-20240326-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+}
+
+.firstUp{
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+.content{
+    display: flex;
+    height:100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.text1{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 0.8%;
+}
+
+.text2{
+    margin-top: 0.3%;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+
+.text3{
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 1.5%;
+}
+
+.signIn{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    margin: 10px;
+    padding: 8px 15px 6px 15px;
+    border-radius: 4px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-bottom: 20%;
+}
+
+.enter{
+    background-color: rgba(0, 0, 0, 0.594);
+    color: white;
+    padding: 0px 9px 3px;
+    border: 1px solid rgb(146, 145, 145);
+    border-radius: 3.6px;
+    font-size:  15px;
+}
+
+.lang{
+    padding: 0;
+}
+
+.dropdown{
+    padding: 0;
+}
+
+.writeText{
+    padding:20px 200px 20px 15px ;
+    background-color: rgba(0, 0, 0, 0.568);
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: white;
+}
+
+.getStarted{
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-family: "Heebo", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom:7px;
+    padding-left: 20px;
+    padding-right: 8px;
+    margin-left: 10px;
+}
+
+.Right{
+    padding-left: 8px;
+    padding-right:17px;
+    padding-top: 17px;
+}
+
+/*  Another Partition */
+
+.second{
+    margin-top: 7px;
+    background-color: black;
+    height: 75vh;
+    display: flex;
+}
+
+.content2{
+    height:75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+}
+
+.text4{
+    font-family: "Archivo Black", sans-serif;
+    color:white;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    padding-left: 20%;
+}
+
+.text5{
+    padding-top: 1%;
+    font-family: "Roboto", sans-serif;
+    color:white;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 20%;
+}
+
+.tv{
+    position: relative;
+    padding-top: 50px;
+    padding-left: 50px;
+} 
+
+.tvVideo{
+    padding-top: 100px;
+    padding-left: 80px;
+    position:absolute;
+}
+
+.tvImg{
+    position: absolute;
+    z-index: 10;
+    padding-right: 100px;
+}
+
+/*  Another Partition */
+
+.third{
+    margin-top: 7px;
+    background-color: black;
+    height: 75vh;
+    display: flex;
+}
+
+.content3{
+    height:75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text6{
+    font-family: "Archivo Black", sans-serif;
+    color:white;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.text7{
+    padding-top: 1%;
+    font-family: "Roboto", sans-serif;
+    color:white;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 300px;
+}
+
+.mobImg{
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+/*  Another Partition */
+
+.second{
+    margin-top: 7px;
+    background-color: black;
+    height: 75vh;
+    display: flex;
+}
+
+.content2{
+    height:75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+}
+
+.text4{
+    font-family: "Archivo Black", sans-serif;
+    color:white;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    padding-left: 20%;
+}
+
+.text5{
+    padding-top: 1%;
+    font-family: "Roboto", sans-serif;
+    color:white;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 20%;
+}
+
+.tv1{
+    position: relative;
+    padding-top: 50px;
+    padding-left: 50px;
+} 
+
+.tvVideo1{
+    width:380px;
+    padding-top: 35px;
+    padding-left: 100px;
+    position:absolute;
+}
+
+.tvImg1{
+    position: absolute;
+    z-index: 10;
+    width: 600px;
+    padding-right: 100px;
+}
+
+/*  Another Partition */
+
+.text8{
+    font-family: "Archivo Black", sans-serif;
+    color:white;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.text9{
+    padding-top: 1%;
+    font-family: "Roboto", sans-serif;
+    color:white;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 200px;
+}
+
+/*  Another Partition */
+
+.zecond{
+    margin-top: 7px;
+    background-color: black;
+    height: 125vh;
+}
+
+.text10{
+    padding-top: 65px;
+    font-family: "Archivo Black", sans-serif;
+    color:white;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.faq:hover{
+    transition: all 1s ease-out;
+    background-color: #686868;
+    cursor: pointer;
+}
+
+.faq1:hover{
+    transition: all 1s ease-out;
+    background-color: #686868;
+    cursor: pointer;
+}
+
+.faq{
+    display: flex;
+    color: white;
+    background-color: #2d2d2d;
+    padding : 30px 21px ;
+    width: 72vw;
+    margin: 32px auto 8px;
+    justify-content: space-between;
+}
+
+.faqtext{
+    font-family: "Roboto", sans-serif;
+    color:white;
+    font-size: 22px;
+    padding-top: 3px;
+}
+
+.faq1{
+    display: flex;
+    color: white;
+    background-color: #2d2d2d;
+    padding : 30px 21px ;
+    width: 72vw;
+    margin: 8px auto;
+    justify-content: space-between;
+}
+
+
+.text0{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+h6{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.me{
+    display: flex;
+    justify-content: center;
+}
+
+.getStarted1{
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-family: "Heebo", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom:7px;
+    padding-left: 20px;
+    padding-right: 8px;
+    margin-left: 10px;
+}
+
+.end{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    padding: 14px;
+    padding-left: 10%;
+    margin-top: 7px;
+    height: 45vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.questions1{
+    padding: 34px 0;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer a{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.enter1{
+    background-color: rgba(0, 0, 0, 0.594);
+    color: white;
+    padding: 0px 10px 0px;
+    border: 1px solid rgb(146, 145, 145);
+    border-radius: 3.6px;
+    font-size:  15px;
+    width: 120px;
+    padding-bottom: 5px;
+}
+
+.btn{
+    cursor: pointer;
+}
